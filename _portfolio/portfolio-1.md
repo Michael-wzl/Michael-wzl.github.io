@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Real MTCNN-PyTorch"
+excerpt: "The MTCNN that makes full use of PyTorch and Torchvision! I never understand why common MTCNN-PyTorch implementations have to convert images back to PIL Images and back to Tensors again and again. This implementation avoids that and is much faster."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The MTCNN that makes full use of PyTorch and Torchvision! I never understand why common MTCNN-PyTorch implementations have to convert images back to PIL Images and back to Tensors again and again. This implementation avoids that and is much faster. See the [GitHub repo](https://github.com/Michael-wzl/mtcnn_pytorch).
