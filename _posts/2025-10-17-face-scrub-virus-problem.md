@@ -9,6 +9,7 @@ tags:
 FaceScrub requires downloading raw images from the links provided in the dataset. However, since FS is quite old, many of the links are broken, with some even leading to Trojan viruses.
 
 FaceScrub's Virus Problem
+
 ======
 I recently used the links provided in [the FaceScrub dataset](https://malea.winkler.site/facescrub.html) and the code provided in [the link](https://github.com/faceteam/facescrub) to download images for a face recognition project. Unfortunately, some links, named socialitelife.com and clearchannel.com, downloaded Trojan backdoors (fbliker and kryptik). The only fortunate thing is that the university inner web blocked the infected server without causing too much damage.
 
