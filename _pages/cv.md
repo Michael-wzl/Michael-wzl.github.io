@@ -58,10 +58,11 @@ Work experience
 Skills
 ======
 * Language Grasp
-  * Proficient in Python, Java, and C++
+  * Proficient in Python, Java, C++, LaTeX, and Bash
   * Familiar with common development tools: Linux shell, Conda, Git
-  * Familiar with PyTorch
+  * Familiar with PyTorch frameworks
   * Familiar with popular libraries: torchvision, NumPy, Matplotlib, OpenCV
+* Good grasp of VSCode tricks and Copilot models, enabling quick prototyping and efficient coding.
 * Experience with Adversarial Machine Learning and Responsible AI.
 * Experience with edge-device detection model deployment and optimization (NVIDIA Jetson Orin NX).
 * Experience with training, distilling, and quantizing YOLO models.
