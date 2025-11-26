@@ -11,25 +11,25 @@ redirect_from:
 
 Education
 ======
-* The University of Hong Kong / Undergrad Fintech / 24.9 – Now
+* The University of Hong Kong / Undergraduate FinTech / 24.9 – Now
   <details class="fold">
     <summary>Courses (cGPA: 4.09/4.3)</summary>
         MATH1013: University Mathematics II (Calculus) [Grade: A] <br>
         MATH1853: Linear Algebra, Probability and Statistics [Grade: A] <br>
-        COMP2121: Discrete Mathematics [On-going]<br>
-        COMP2119: Introduction to Data Structures and Algorithms [On-going] <br>
+        COMP2121: Discrete Mathematics [Ongoing]<br>
+        COMP2119: Introduction to Data Structures and Algorithms [Ongoing] <br>
         ENGG1330: Computer Programming I (Python) [Grade: A+] <br>
         FITE2000: Foundations of FinTech Programming (Java) [Grade: A+] <br>
-        COMP2113: Programming Technologies (C++) [On-going] <br>
+        COMP2113: Programming Technologies (C++) [Ongoing] <br>
         STAT1016: Data Science 101 [Grade: A] <br>
         FITE1010: Introduction to Financial Technologies [Grade: A+] <br>
-        FITE3010: Big Data and Data Mining [On-going] <br>
+        FITE3010: Big Data and Data Mining [Ongoing] <br>
         ECON1210: Introductory Microeconomics [A+] <br>
         ACCT1101: Introduction to Financial Accounting [A+] <br>
-        FINA1310: Corporate Finance [On-going] <br>
+        FINA1310: Corporate Finance [Ongoing] <br>
         BASC9001: Approaching Interdisciplinarity: Knowledge Beyond Disciplines [B+] <br>
   </details>
-* Stanford International Honors Program / Summer Session / 25.6-25.8
+* Stanford University / International Honors Program / 25.6-25.8
   <details class="fold">
     <summary>Courses (GPA: 3.636/4)</summary>
         EE364a: Convex Optimization I [Grade: A] <br>
