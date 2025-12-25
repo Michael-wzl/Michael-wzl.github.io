@@ -30,4 +30,4 @@ We implemented four types of AI players with different strategies:
   - **Behavior**: Demonstrates macro strategy by building massive forces to overwhelm the player directly.
 
 Also, to avoid dead locks in multi-threading, we designed a unidirectional information flow system:
-![Flow Chart](imgs/unidirectional_info_flow.png)
+![Flow Chart]({{ "/images/portfolio/2/portfolio-2-unidirectional_info_flow.png" | relative_url }})
