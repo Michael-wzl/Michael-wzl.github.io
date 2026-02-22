@@ -10,24 +10,25 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
+
 * The University of Hong Kong / Undergraduate FinTech / 24.9 – Now
   <details class="fold">
-    <summary>Courses (cGPA: 4.09/4.3)</summary>
+    <summary>Courses (cGPA: 4.01/4.3)</summary>
         MATH1013: University Mathematics II (Calculus) [Grade: A] <br>
         MATH1853: Linear Algebra, Probability and Statistics [Grade: A] <br>
-        COMP2121: Discrete Mathematics [Ongoing]<br>
-        COMP2119: Introduction to Data Structures and Algorithms [Ongoing] <br>
+        COMP2121: Discrete Mathematics [Grade: A]<br>
+        COMP2119: Introduction to Data Structures and Algorithms [Grade: A-] <br>
         ENGG1330: Computer Programming I (Python) [Grade: A+] <br>
         FITE2000: Foundations of FinTech Programming (Java) [Grade: A+] <br>
-        COMP2113: Programming Technologies (C++) [Ongoing] <br>
+        COMP2113: Programming Technologies (C++) [Grade: A+] <br>
         STAT1016: Data Science 101 [Grade: A] <br>
         FITE1010: Introduction to Financial Technologies [Grade: A+] <br>
-        FITE3010: Big Data and Data Mining [Ongoing] <br>
-        ECON1210: Introductory Microeconomics [A+] <br>
-        ACCT1101: Introduction to Financial Accounting [A+] <br>
-        FINA1310: Corporate Finance [Ongoing] <br>
-        BASC9001: Approaching Interdisciplinarity: Knowledge Beyond Disciplines [B+] <br>
+        FITE3010: Big Data and Data Mining [Grade: B+] <br>
+        ECON1210: Introductory Microeconomics [Grade: A+] <br>
+        ACCT1101: Introduction to Financial Accounting [Grade: A+] <br>
+        FINA1310: Corporate Finance [Grade: A] <br>
+        BASC9001: Approaching Interdisciplinarity: Knowledge Beyond Disciplines [Grade: B+] <br>
   </details>
 * Stanford University / International Honors Program / 25.6-25.8
   <details class="fold">
@@ -38,25 +39,28 @@ Education
   </details>
 * National University of Singapore / Exchange / 26.1 - 26.6
   <details class="fold">
-    <summary>Courses (Planned)</summary>
-        CS2100: Computer Organisation [Offered] <br>
-        CS2113: Software Engineering & Object-Oriented Programming [Offered] <br>
-        IS4302: Blockchain and Distributed Ledger Technologies [Offered] <br>
-        PH2241: Philosophy of Mind [Offered] <br>
-        GEC1013: World Religions [Offered] <br>
+    <summary>Courses</summary>
+        CS2100: Computer Organisation [Ongoing] <br>
+        CS2113: Software Engineering & Object-Oriented Programming [Ongoing] <br>
+        CS3230: Design and Analysis of Algorithms [Ongoing] <br>
+        IS4302: Blockchain and Distributed Ledger Technologies [Ongoing] <br>
   </details>
 
 Work experience
-======
+------
+
+* 26.1 – Now: Consultant of HKU Herkules RoboMaster Team
+  * Duties: Coaching and guiding new club members
 * 25.1 - Now: UG Research Assistant
   * The University of Hong Kong, School of Computing and Data Science, TASR Lab
   * Duties: Project lead and primary contributor
   * Supervisor: [Prof. Chow Ka-Ho](https://khchow.com)
-* 24.11 - Now: Member of HKU Herkules RoboMaster Team
+* 24.11 - 25.12: Member of HKU Herkules RoboMaster Team
   * Duties: Training and deploying detection models on edge devices
   
 Skills
-======
+------
+
 * Language Grasp
   * Proficient in Python, Java, C++, LaTeX, and Bash
   * Familiar with common development tools: Linux shell, Conda, Git
@@ -69,7 +73,8 @@ Skills
 * Proficient in English. (TOEFL 116/120, 2025.1)
 
 Publications
-======
+------
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

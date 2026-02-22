@@ -25,6 +25,7 @@ author:
   # Biographic information
   avatar           : "protego_profileimg.png"
   name             : "WANG, Ziling"
+  highlight_name   : "Ziling Wang"  # Name as it appears in citations, used for highlighting
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Central, Hong Kong"

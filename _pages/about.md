@@ -26,6 +26,7 @@ Anyhow, welcome to my website. I post ideas, on-going projects, weird problems o
 
 ## News
 
-- 2025.11.05 Co-authored a paper on [Table Recognition](https://www.arxiv.org/abs/2512.01248). It is under review for a CCF-A conference.
+- 2026.2.21 Protego and TRivia got accepted by CVPR2026! See you in Denver, Colorado!
+- 2025.11.05 Co-authored [TRivia](https://www.arxiv.org/abs/2512.01248) and its [code](https://github.com/opendatalab/TRivia), a paper on document parsing and table recognition. It is under review for a CCF-A conference.
 - 2025.11.04 Protego just got rejected by AAAI-AISI 2026. (Bye Singapore...) Submitted for another CCF-A conference with additional experiments.
-- 2025.08 Published Protego on [arXiv](https://arxiv.org/abs/2508.02034) and released the [codebase](https://github.com/HKU-TASR/Protego). It is currently under review for a CCF-A conference. (Pray for the best!)
+- 2025.08 Published [Protego](https://arxiv.org/abs/2508.02034), a paper on face privacy protection against retrieval systems and released the [codebase](https://github.com/HKU-TASR/Protego). It is currently under review for a CCF-A conference. (Pray for the best!)
