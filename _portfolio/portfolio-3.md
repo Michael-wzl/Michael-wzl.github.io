@@ -9,7 +9,7 @@ collection: portfolio
 The preprocessing pipeline is modular and configurable via `pp_steps`. Each step can either **overwrite** (`'o'`) or **append** (`'a'`) features:
 
 | Step | Class | Description |
-|------|-------|-------------|
+| --- | --- | --- |
 | `cov_select` | `CovSelector` | Select top-k features based on Spearman/Pearson correlation with target |
 | `zscore` | `ZScoreScaler` | Z-Score normalization (mean=0, std=1) |
 | `winsor` | `Winsorizer` | Clip outliers to specified quantiles (default: 1st and 99th percentile) |
