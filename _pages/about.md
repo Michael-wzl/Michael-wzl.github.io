@@ -26,6 +26,7 @@ Anyhow, welcome to my website. I post ideas, on-going projects, weird problems o
 
 ## News
 
+- 2026.5.2 Co-authored a paper on object detection backdoor attacks. It is under review for a top-tier conference.
 - 2026.2.21 Protego and TRivia got accepted by CVPR2026! See you in Denver, Colorado!
 - 2025.11.05 Co-authored [TRivia](https://www.arxiv.org/abs/2512.01248), a paper on document parsing and table recognition and released the [code](https://github.com/opendatalab/TRivia). It is under review for a CCF-A conference.
 - 2025.11.04 Protego just got rejected by AAAI-AISI 2026. (Bye Singapore...) Submitted for another CCF-A conference with additional experiments.

@@ -37,13 +37,13 @@ Education
         CS229: Machine Learning [Grade: B] <br>
         CS148: Introduction to Computer Graphics and Imaging [Grade: A] <br>
   </details>
-* National University of Singapore / Exchange / 26.1 - 26.6
+* National University of Singapore / Exchange / 26.1 - 26.5
   <details class="fold">
     <summary>Courses</summary>
-        CS2100: Computer Organisation [Ongoing] <br>
-        CS2113: Software Engineering & Object-Oriented Programming [Ongoing] <br>
-        CS3230: Design and Analysis of Algorithms [Ongoing] <br>
-        IS4302: Blockchain and Distributed Ledger Technologies [Ongoing] <br>
+        CS2100: Computer Organisation [Grade: TBA] <br>
+        CS2113: Software Engineering & Object-Oriented Programming [Grade: TBA] <br>
+        CS3230: Design and Analysis of Algorithms [Grade: TBA] <br>
+        IS4302: Blockchain and Distributed Ledger Technologies [Grade: TBA] <br>
   </details>
 
 Work experience
@@ -62,7 +62,7 @@ Skills
 ------
 
 * Language Grasp
-  * Proficient in Python, Java, C++, LaTeX, and Bash
+  * Proficient in Python, Java, C++, LaTeX, Bash, and Solidity
   * Familiar with common development tools: Linux shell, Conda, Git
   * Familiar with PyTorch frameworks
   * Familiar with popular libraries: torchvision, NumPy, Matplotlib, OpenCV
