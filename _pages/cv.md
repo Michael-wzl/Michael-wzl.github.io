@@ -40,10 +40,10 @@ Education
 * National University of Singapore / Exchange / 26.1 - 26.5
   <details class="fold">
     <summary>Courses</summary>
-        CS2100: Computer Organisation [Grade: TBA] <br>
-        CS2113: Software Engineering & Object-Oriented Programming [Grade: TBA] <br>
-        CS3230: Design and Analysis of Algorithms [Grade: TBA] <br>
-        IS4302: Blockchain and Distributed Ledger Technologies [Grade: TBA] <br>
+        CS2100: Computer Organisation [Grade: B+] <br>
+        CS2113: Software Engineering & Object-Oriented Programming [Grade: A] <br>
+        CS3230: Design and Analysis of Algorithms [Grade: B] <br>
+        IS4302: Blockchain and Distributed Ledger Technologies [Grade: A+] <br>
   </details>
 
 Work experience
