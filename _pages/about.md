@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a sophomore at the University of Hong Kong, majoring in Financial Technology.
+I am a junior (year 3) at the University of Hong Kong, majoring in Financial Technology (basically block chains, e-payments, and stuff).
 
 - Currently, I am working at the [HKU Trustworthy AI and Systems Research (TASR) Lab](https://github.com/HKU-TASR) as an UG Research Assistant, advised by [Prof. Chow Ka-Ho](https://khchow.com) (He paid me good money, so I guess I am trustworthy enough :P)
 - Also a member of [HKU Herkules RoboMaster Team](https://github.com/HKUAstar), mainly responsible for training and deploying the most stable, most accurate, and fastest detection models on edge devices.
@@ -26,9 +26,9 @@ Anyhow, welcome to my website. I post ideas, on-going projects, weird problems o
 
 ## News
 
-- 2026.6.3 Arrived in Denver, Colorado for CVPR2026! Looking forward to presenting our work and meeting everyone there!
+- 2026.6.7 Protego has been selected to receive the [CVPR Compute Gold Star](https://cvpr.thecvf.com/Conferences/2026/ComputeReporting) — one of the most distinguished recognitions in CVPR 2026's new Compute Reporting Initiative!
 - 2026.5.2 Co-authored a paper on object detection backdoor attacks. It is under review for a top-tier conference.
 - 2026.2.21 Protego and TRivia got accepted by CVPR2026! See you in Denver, Colorado!
-- 2025.11.05 Co-authored [TRivia](https://www.arxiv.org/abs/2512.01248), a paper on document parsing and table recognition and released the [code](https://github.com/opendatalab/TRivia). It is under review for a CCF-A conference.
+- 2025.11.05 Co-authored [TRivia](https://www.arxiv.org/abs/2512.01248), a paper on document parsing and table recognition, and released the [code](https://github.com/opendatalab/TRivia). It is under review for a CCF-A conference.
 - 2025.11.04 Protego just got rejected by AAAI-AISI 2026. (Bye Singapore...) Submitted for another CCF-A conference with additional experiments.
 - 2025.08 Published [Protego](https://arxiv.org/abs/2508.02034), a paper on face privacy protection against retrieval systems and released the [code](https://github.com/HKU-TASR/Protego). It is currently under review for a CCF-A conference. (Pray for the best!)
