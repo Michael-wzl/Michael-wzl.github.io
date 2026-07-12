@@ -26,6 +26,7 @@ Anyhow, welcome to my website. I post ideas, on-going projects, weird problems o
 
 ## News
 
+- 2026.7.12 Released [FRBench](https://github.com/HKU-TASR/FRBench), An easy-to-use, end-to-end differentiable face-recognition module that ships 45+ pretrained weights, covering 25 backbones, 9 loss functions, and 3 training datasets spanning generations from 2015 to 2024.
 - 2026.6.7 Protego has been selected to receive the [CVPR Compute Gold Star](https://cvpr.thecvf.com/Conferences/2026/ComputeReporting) — one of the most distinguished recognitions in CVPR 2026's new Compute Reporting Initiative!
 - 2026.5.2 Co-authored a paper on object detection backdoor attacks. It is under review for a top-tier conference.
 - 2026.2.21 Protego and TRivia got accepted by CVPR2026! See you in Denver, Colorado!
