@@ -1,6 +1,6 @@
 ---
 title: "Conference Reviewer - EuroSP2026"
-excerpt: "IEEE European Symposium on Security and Privacy (EuroSP) 2026 Reviewer"
+excerpt: "IEEE European Symposium on Security and Privacy (EuroSP) 2026 Sub-reviewer"
 collection: services
 ---
 
