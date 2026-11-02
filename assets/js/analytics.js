@@ -41,6 +41,13 @@
   let tag = null;
   let returnFocus = null;
 
+  function syncBarSpace() {
+    if (!document.documentElement?.style?.setProperty) return;
+    const height = panel.hidden ? 0 : Math.ceil(panel.getBoundingClientRect().height);
+    document.documentElement.style.setProperty('--analytics-consent-height', height + 'px');
+  }
+  if (typeof ResizeObserver === 'function') new ResizeObserver(syncBarSpace).observe(panel);
+
   function readChoice() {
     try {
       const stored = JSON.parse(localStorage.getItem(storageKey));
@@ -142,13 +149,16 @@
     returnFocus = opener || null;
     current.textContent = consent === 'granted' ? 'Your current choice: analytics accepted.'
       : consent === 'denied' ? 'Your current choice: analytics declined.' : 'Analytics is off until you accept.';
+    current.hidden = consent === null;
     closeButton.hidden = consent === null;
     panel.hidden = false;
+    syncBarSpace();
     if (opener) title.focus();
   }
 
   function hideSettings() {
     panel.hidden = true;
+    syncBarSpace();
     returnFocus?.focus();
     returnFocus = null;
   }
