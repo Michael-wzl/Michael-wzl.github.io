@@ -72,6 +72,12 @@ Skills
 * Experience with training, distilling, and quantizing YOLO models.
 * Proficient in English. (TOEFL 116/120, 2025.1)
 
+Research software
+------
+
+* [AFRBench / AFRLib](https://github.com/HKU-TASR/AFRBench): an open-source benchmark and library for anti-facial-recognition research. AFRLib provides 26 method implementations; AFRBench evaluates 24 methods under a common retrieval protocol.
+* [FRBench](https://github.com/HKU-TASR/FRBench): a differentiable face-recognition library with 45+ pretrained weights across 25 backbones, 9 loss functions, and 3 training datasets.
+
 Publications
 ------
 
