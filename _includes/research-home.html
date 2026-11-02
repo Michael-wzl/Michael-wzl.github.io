@@ -1,0 +1,25 @@
+<main id="main">
+  <header class="profile" id="about">
+    <div class="profile-copy">
+      <p class="eyebrow">{{ site.data.home.affiliation }}</p>
+      <h1>{{ site.data.home.given_name }} {{ site.data.home.family_name }} <span class="chinese-name" lang="zh-Hant">{{ site.data.home.chinese_name }}</span></h1>
+      <p class="profile-role">{{ site.data.home.focus }}</p>
+      <div class="bio">{% for paragraph in site.data.home.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      <p class="profile-links"><a href="mailto:{{ site.author.email }}" data-analytics-id="contact_email" data-analytics-placement="hero">Email</a><a href="{{ site.author.googlescholar }}" data-analytics-id="profile_scholar" data-analytics-placement="hero">Google Scholar</a><a href="https://github.com/{{ site.author.github }}" data-analytics-id="profile_github" data-analytics-placement="hero">GitHub</a><a href="{{ '/cv/' | relative_url }}" data-analytics-id="nav_cv" data-analytics-placement="hero">CV</a></p>
+    </div>
+    <figure class="profile-visual"><img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Ziling Wang’s avatar" width="678" height="678" fetchpriority="high"></figure>
+  </header>
+  <section class="publications" id="publications" aria-labelledby="publications-title">
+    <div class="section-heading"><h2 id="publications-title">Publications</h2><a href="{{ site.author.googlescholar }}" data-analytics-id="publications_scholar" data-analytics-placement="research">Google Scholar <span aria-hidden="true">↗</span></a></div>
+    <div class="paper-list">{% assign papers = site.publications | where: 'selected', true | sort: 'order' | reverse %}{% for paper in papers %}{% include research-publication.html paper=paper %}{% endfor %}</div>
+  </section>
+  <section class="news" id="news" aria-labelledby="news-title">
+    <div class="section-heading"><h2 id="news-title">Recent News</h2></div>
+    <ol class="news-list">{% for item in site.data.home.news %}<li><time datetime="{{ item.date }}">{{ item.label }}</time><p>{{ item.text | replace: '<a ', '<a data-analytics-placement="news" ' }}</p></li>{% endfor %}</ol>
+  </section>
+  <section class="projects" id="portfolio" aria-labelledby="portfolio-title">
+    <div class="section-heading"><h2 id="portfolio-title">Portfolio</h2><a href="https://github.com/{{ site.author.github }}" data-analytics-id="portfolio_github" data-analytics-placement="project">More on GitHub <span aria-hidden="true">↗</span></a></div>
+    <div class="project-list">{% assign projects = site.portfolio | where_exp: 'project', 'project.selected_order != nil' | sort: 'selected_order' %}{% for project in projects %}{% include research-project.html project=project %}{% endfor %}</div>
+  </section>
+  <section class="beyond" id="beyond" aria-labelledby="beyond-title"><h2 id="beyond-title">Beyond Research</h2><p>I advise the <a href="https://github.com/HKUAstar">HKU Herkules RoboMaster Team</a> as a consultant, following my work on training and deploying detection models on edge devices. I also build software projects in FinTech and web development.</p><p>I use this website to share my research, projects, and the occasional MPS debugging adventure. <a href="{{ '/year-archive/' | relative_url }}" data-analytics-id="nav_writing" data-analytics-placement="content">Read my writing <span aria-hidden="true">↗</span></a> or <a href="mailto:{{ site.author.email }}" data-analytics-id="contact_email" data-analytics-placement="contact">get in touch</a>.</p></section>
+</main>

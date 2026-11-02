@@ -2,13 +2,6 @@
 layout: archive
 title: "Portfolio"
 permalink: /portfolio/
-author_profile: true
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="project-list">{% assign projects = site.portfolio | where_exp: 'project', 'project.selected_order != nil' | sort: 'selected_order' %}{% for project in projects %}{% include research-project.html project=project %}{% endfor %}</div>
+<p>More projects and experiments are available on <a href="https://github.com/{{ site.author.github }}">GitHub</a>.</p>

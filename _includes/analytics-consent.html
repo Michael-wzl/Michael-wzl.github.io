@@ -1,0 +1,19 @@
+{% assign ga4_id = site.analytics.google.tracking_id | default: '' | strip %}
+{% assign ga4_prefix = ga4_id | slice: 0, 2 %}
+{% assign ga4_length = ga4_id | size %}
+{% if site.analytics.provider == 'google-analytics-4' and ga4_prefix == 'G-' and ga4_length == 12 and site.analytics.google.production_origin %}
+<link rel="stylesheet" href="{{ '/assets/css/analytics.css' | relative_url }}">
+<section id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-consent-title" hidden>
+  <div class="analytics-consent__copy">
+    <h2 id="analytics-consent-title" tabindex="-1">Optional website analytics</h2>
+    <p>May I use Google Analytics to understand which pages and links visitors find useful? It uses analytics cookies and sends usage data to Google. Reports are private. Your choice won’t affect access to this site. <a href="{{ '/terms/' | relative_url }}">Privacy details</a></p>
+    <p class="analytics-consent__current" data-analytics-current></p>
+  </div>
+  <div class="analytics-consent__actions">
+    <button type="button" class="analytics-consent__button" data-analytics-decline>Decline analytics</button>
+    <button type="button" class="analytics-consent__button" data-analytics-accept>Accept analytics</button>
+    <button type="button" class="analytics-consent__close" data-analytics-close hidden>Close settings</button>
+  </div>
+</section>
+<p id="analytics-status" class="analytics-visually-hidden" role="status" aria-live="polite"></p>
+{% endif %}

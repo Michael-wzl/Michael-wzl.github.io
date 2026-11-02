@@ -1,7 +1,11 @@
 ---
-title: "SPY ETF Close Price Regression"
-excerpt: "Group project for FITE3010. We tried out 9 models including: ARIMA-GARCH Hybrid Model, BNN, Multi-asset Attention Model, RF, MLP, SVR, HMM, TFT, and XGBoost. I am responsible for the TFT part and made it public [on GitHub](https://github.com/Michael-wzl/SPY_Regrssion). It reached a test MSE of 89.19."
+title: "SPY Regression (TFT)"
+excerpt: "My Temporal Fusion Transformer component of a group project on next-trading-day SPY regression, using Darts with modular feature preprocessing and rolling forecasts."
 collection: portfolio
+selected_order: 6
+selected_description: "My Temporal Fusion Transformer component of a group project on next-trading-day SPY regression, using Darts with modular feature preprocessing and rolling forecasts."
+selected_kind: "FITE3010 group project · Python / Darts"
+codeurl: "https://github.com/Michael-wzl/SPY_Regrssion"
 ---
 
 ## 1. Feature Preprocessing (fitted on training data only)

@@ -1,0 +1,11 @@
+{% assign project = include.project %}
+{% assign project_id = project.codeurl | split: '/' | last | downcase | replace: '-', '_' %}
+{% assign project_link = project.moreurl | default: project.codeurl | default: project.url %}
+{% unless project_link contains '://' %}{% assign project_link = project_link | relative_url %}{% endunless %}
+<article class="project">
+  <h3><a href="{{ project_link }}" data-analytics-id="{{ project_id }}_details" data-analytics-placement="project">{{ project.title }}</a></h3>
+  <p>{{ project.selected_description }}</p>
+  {% if project.selected_meta %}<p class="project-meta">{{ project.selected_meta }}</p>{% endif %}
+  <p class="project-kind">{{ project.selected_kind }}</p>
+  <p class="resource-links"><a href="{{ project.codeurl }}" data-analytics-id="{{ project_id }}_repository" data-analytics-placement="project">{% if project.selected_order < 3 %}Code &amp; documentation{% else %}Repository{% endif %} <span aria-hidden="true">↗</span></a>{% if project.moreurl %}<a href="{{ project.moreurl | relative_url }}" data-analytics-id="afrbench_details" data-analytics-placement="project">Project overview <span aria-hidden="true">↗</span></a>{% endif %}</p>
+</article>

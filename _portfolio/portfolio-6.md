@@ -2,6 +2,11 @@
 title: "FRBench"
 excerpt: "A differentiable face-recognition library with 45+ pretrained weights, 25 backbones, 9 loss functions, and 3 training datasets."
 collection: portfolio
+selected_order: 2
+selected_description: "A differentiable face-recognition library that provides a common interface to pretrained models for privacy protection, adversarial robustness, and image retrieval research."
+selected_meta: "45+ pretrained weights · 25 backbones · 9 loss functions · 3 training datasets"
+selected_kind: "Face-recognition model library · PyTorch"
+codeurl: "https://github.com/HKU-TASR/FRBench"
 ---
 
 **FRBench** provides a common interface to pretrained face-recognition models for privacy protection, adversarial robustness, and retrieval research. It is developed at the [HKU TASR Lab](https://github.com/HKU-TASR).

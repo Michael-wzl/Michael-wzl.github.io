@@ -3,6 +3,12 @@ title: "AFRBench / AFRLib"
 excerpt: "An open-source benchmark and library for anti-facial-recognition research: 26 method implementations, 24 benchmarked methods, and retrieval evaluation with 22.8 million distractor faces."
 collection: portfolio
 permalink: /portfolio/afrbench/
+selected_order: 1
+selected_description: "An open-source library and retrieval benchmark for face privacy research. AFRLib provides 26 method implementations; AFRBench evaluates 24 methods under a common protocol, with support for 45+ face-recognition models."
+selected_meta: "5,000 photos · 50 protectees · 22.8 million distractor faces"
+selected_kind: "Benchmark and method library"
+codeurl: "https://github.com/HKU-TASR/AFRBench"
+moreurl: "/portfolio/afrbench/"
 ---
 
 **AFRBench** evaluates privacy protection methods against face-recognition-based image retrieval. **AFRLib** brings these methods behind shared interfaces so researchers can train, protect images, and evaluate them through a common workflow.

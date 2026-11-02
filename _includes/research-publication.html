@@ -1,0 +1,14 @@
+{% assign paper = include.paper %}
+{% assign author_name = site.author.highlight_name | default: 'Ziling Wang' %}
+{% assign author_markup = '<strong>' | append: author_name | append: '</strong>' %}
+{% assign paper_id = paper.codeurl | split: '/' | last | downcase %}
+<article class="paper">
+  <div class="paper-mark"><span>{{ paper.conference | default: paper.venue }}<small>{{ paper.date | date: '%Y' }}</small></span></div>
+  <div class="paper-copy">
+    <p class="paper-venue">{{ paper.author_role }}{% if paper.award %}<span class="paper-award">· {{ paper.award }}</span>{% endif %}</p>
+    <h3><a href="{{ paper.proceedings_url | default: paper.paperurl }}" data-analytics-id="{{ paper_id }}_paper" data-analytics-placement="publication">{{ paper.title }}</a></h3>
+    <p class="paper-authors">{{ paper.author_names | escape | replace: author_name, author_markup }}</p>
+    <p class="paper-summary">{{ paper.selected_summary }}</p>
+    <p class="resource-links"><a href="{{ paper.proceedings_url | default: paper.paperurl }}" data-analytics-id="{{ paper_id }}_paper" data-analytics-placement="publication">Paper <span aria-hidden="true">↗</span></a>{% if paper.codeurl %}<a href="{{ paper.codeurl }}" data-analytics-id="{{ paper_id }}_repository" data-analytics-placement="publication">Code <span aria-hidden="true">↗</span></a>{% endif %}</p>
+  </div>
+</article>

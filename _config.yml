@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "About Me"
+title                    : "Ziling Wang"
 title_separator          : "-"
 name                     : &name "WANG, Ziling"
-description              : &description "WANG, Ziling's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ziling Wang — face privacy, adversarial machine learning, and responsible AI research at the University of Hong Kong."
 url                      : https://michael-wzl.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -155,9 +155,10 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4"
   google:
-    tracking_id          :
+    tracking_id          : "G-8RNERCR2DV"
+    production_origin    : "https://michael-wzl.github.io"
 
 
 # Reading Files
@@ -191,6 +192,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - tests
   - vendor
 keep_files:
   - .git

@@ -1,0 +1,4 @@
+<header class="site-header"><div class="header-inner">
+  <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Ziling Wang, homepage" data-analytics-id="nav_home" data-analytics-placement="nav"><span class="name-given">{{ site.data.home.given_name }}</span> <span class="name-family">{{ site.data.home.family_name }}</span></a>
+  <nav class="site-nav" aria-label="Main navigation">{% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}" data-analytics-id="{{ link.analytics_id }}" data-analytics-placement="nav">{{ link.title }}</a>{% endfor %}</nav>
+</div></header>

@@ -1,7 +1,12 @@
 ---
 title: "ChainLancer"
-excerpt: "Group project for NUS IS4302 Blockchain and Distributed Ledger Technologies. A decentralized freelance escrow platform built on Ethereum smart contracts, with milestone-based escrow, on-chain dispute resolution, soulbound reputation scoring, and a React/Vite frontend. Available [on GitHub](https://github.com/Michael-wzl/ChainLancer)."
+excerpt: "An Ethereum freelance escrow application with milestone-based payments, dispute resolution, and on-chain reputation, built with Solidity smart contracts and a React frontend."
 collection: portfolio
+mathjax: true
+selected_order: 5
+selected_description: "An Ethereum freelance escrow application with milestone-based payments, dispute resolution, and on-chain reputation, built with Solidity smart contracts and a React frontend."
+selected_kind: "NUS IS4302 group project · Solidity / React"
+codeurl: "https://github.com/Michael-wzl/ChainLancer"
 ---
 
 ChainLancer (also named **GigSecure** as the website display name) is a **decentralized freelance escrow platform** built on Ethereum smart contracts. Clients post milestone-based jobs with funds locked in escrow; freelancers apply, deliver work, and get paid automatically when milestones are approved. A built-in dispute resolution system and on-chain reputation scoring keep both sides accountable.

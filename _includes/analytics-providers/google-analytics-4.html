@@ -1,8 +1,8 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{site.analytics.google.tracking_id}}');
-</script>
+{% assign ga4_id = site.analytics.google.tracking_id | default: '' | strip %}
+{% assign ga4_prefix = ga4_id | slice: 0, 2 %}
+{% assign ga4_length = ga4_id | size %}
+{% if site.analytics.provider == 'google-analytics-4' and ga4_prefix == 'G-' and ga4_length == 12 and site.analytics.google.production_origin %}
+<script defer src="{{ '/assets/js/analytics.js' | relative_url }}"
+        data-ga4-id="{{ ga4_id | escape }}"
+        data-ga4-origin="{{ site.analytics.google.production_origin | escape }}"></script>
+{% endif %}

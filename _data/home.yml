@@ -1,0 +1,30 @@
+given_name: Ziling
+family_name: Wang
+chinese_name: 王子凌
+affiliation: The University of Hong Kong · TASR Lab
+focus: Face privacy · Adversarial machine learning · Responsible AI
+biography:
+  - >-
+    I am a third-year undergraduate at the University of Hong Kong, majoring in Financial Technology, and an undergraduate research assistant at the <a href="https://github.com/HKU-TASR">Trustworthy AI and Systems Research (TASR) Lab</a>, advised by <a href="https://khchow.com">Prof. Ka-Ho Chow</a>.
+  - >-
+    My research focuses on protecting personal photos from face recognition and image retrieval systems. I work on both privacy protection methods and the tools needed to evaluate them. I am also interested in explainable AI.
+news:
+  - date: "2026-10-02"
+    label: Oct 2026
+    text: >-
+      Released <a href="https://github.com/HKU-TASR/AFRBench/releases/tag/v1.0.0">AFRBench v1.0.0</a>, an open-source benchmark and library for evaluating anti-facial-recognition methods in retrieval systems.
+  - date: "2026-08-14"
+    label: Aug 2026
+    text: >-
+      Protego was featured by the <a href="https://croucher.org.hk/en/news/protecting-your-photos-from-an-army-of-face-scraping-bots">Croucher Foundation</a>.
+  - date: "2026-07-12"
+    label: Jul 2026
+    text: >-
+      Released <a href="https://github.com/HKU-TASR/FRBench">FRBench</a>, a differentiable face-recognition library with 45+ pretrained weights.
+  - date: "2026-06-07"
+    label: Jun 2026
+    text: >-
+      Protego received a <a href="https://cvpr.thecvf.com/Conferences/2026/ComputeReporting">CVPR Compute Gold Star</a>.
+  - date: "2026-02"
+    label: Feb 2026
+    text: Protego and TRivia were accepted to CVPR 2026!
