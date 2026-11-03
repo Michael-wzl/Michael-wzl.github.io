@@ -194,6 +194,32 @@ exclude:
   - tmp
   - tests
   - vendor
+  # AcademicPages sample content retained for reference in the source tree.
+  - _pages/archive-layout-with-content.md
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _talks/2012-03-01-talk-1.md
+  - _talks/2013-03-01-tutorial-1.md
+  - _talks/2014-02-01-talk-2.md
+  - _talks/2014-03-01-talk-3.md
+  - _teaching/2014-spring-teaching-1.md
+  - _teaching/2015-spring-teaching-2.md
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
 keep_files:
   - .git
   - .svn

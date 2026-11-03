@@ -137,10 +137,12 @@ test('decline persists without a Google request, then settings can reopen and ac
   b.control('accept');
   assert.equal(b.requests.length, 1);
   assert.equal(JSON.parse(b.storage.get(key)).choice, 'granted');
+  assert.equal(b.elements.panel.hidden, true);
 });
 
 test('accept loads one destination and sanitizes initial page/referrer metadata', () => {
   const b = browser(); b.control('accept'); b.control('accept');
+  assert.equal(b.elements.panel.hidden, true);
   assert.equal(b.requests.length, 1);
   assert.equal(b.requests[0].referrerPolicy, 'no-referrer');
   const configs = b.commands().filter(args => args[0] === 'config');
@@ -156,8 +158,11 @@ test('accept loads one destination and sanitizes initial page/referrer metadata'
 
 test('stored choices survive static-page navigation; denied choice makes no request', () => {
   const storage = new Map([[key, saved('granted')]]);
-  assert.equal(browser({ storage }).requests.length, 1);
-  assert.equal(browser({ storage }).requests.length, 1);
+  for (let visit = 0; visit < 2; visit++) {
+    const accepted = browser({ storage });
+    assert.equal(accepted.requests.length, 1);
+    assert.equal(accepted.elements.panel.hidden, true);
+  }
   storage.set(key, saved('denied'));
   const denied = browser({ storage });
   assert.equal(denied.requests.length, 0); assert.equal(denied.elements.panel.hidden, true);
@@ -175,6 +180,7 @@ test('unavailable storage still requires explicit acceptance', () => {
   const b = browser({ noStorage: true });
   assert.equal(b.requests.length, 0); b.control('accept');
   assert.equal(b.requests.length, 1); assert.match(b.elements.status.textContent, /could not save/);
+  assert.equal(b.elements.panel.hidden, true);
 });
 
 test('click reports route each interaction once, omit private payloads and preserve navigation', () => {
